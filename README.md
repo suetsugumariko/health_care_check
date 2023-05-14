@@ -1,24 +1,46 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# <アプリ名：ヘルスケアチェック>
 
-Things you may want to cover:
+## サイト概要：
+・日々の自分の健康管理チェック表として活用。健康維持と生活習慣の見直しのため。
+・毎日の内服チェック表（飲み忘れていないかカレンダー形式で把握）
+・処方薬の一覧表
+・運動・活動量、睡眠時間を入力できて客観的に把握できるようなグラフ
+・次回受診日のカレンダー
+・体重、体温、脈拍、血圧、SPO2値を入力でき、グラフとして経過を把握できるもの。
+・栄養バランスなど健康を意識できるように、塩分控えめ・糖質控えめ等のおすすめメニューを提案する一覧表
+・ビタミン・栄養・美容の豆知識一覧表
 
-* Ruby version
+### サイトテーマ
+<日々の健康維持・増進のための自己管理チェック表>
 
-* System dependencies
+### テーマを選んだ理由
+・前職で医療従事者として勤務しており、患者が自分自身のことを把握できるようにするシステムがあれば便利だと考えたため。
+・内服忘れを防ぎ、必ず確実に内服しなければならない薬もあるため、
+　患者自身で管理できる安全、安心したシステムがあればよいのではないかと考えたため。
+・食事や運動等、誰もが健康に対して意識できるように効率よく楽しく日々を過ごせるようなアプリがあればよいのではないかと考えたため。
 
-* Configuration
+### ターゲットユーザ
+・病院など定期受診しており、服薬管理が必要なユーザー
+・健康診断など食事や運動の指導を受けた健康志向が気になっているユーザー
 
-* Database creation
 
-* Database initialization
+### 主な利用シーン
+日常生活の中で、気軽に確認でき、簡単に入力できるもの。
 
-* How to run the test suite
+## 設計書
+<...>
 
-* Services (job queues, cache servers, search engines, etc.)
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Deployment instructions
 
-* ...
+
+## 使用素材
+- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名とURLを明記してください。
+- 使用しない場合は、使用素材の項目をREADMEから削除してください。
