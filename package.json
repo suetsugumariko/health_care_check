@@ -1,5 +1,5 @@
 {
-  "name": "health-care-check",
+  "name":"healthy_plus",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
