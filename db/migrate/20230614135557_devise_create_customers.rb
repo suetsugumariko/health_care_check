@@ -32,8 +32,20 @@ class DeviseCreateCustomers < ActiveRecord::Migration[6.1]
       # t.string   :unlock_token # Only if unlock strategy is :email or :both
       # t.datetime :locked_at
 
-      ## 名前を保存するカラム
-      t.string :name
+      #会員ID
+      #id
+      #姓
+      t.string :last_name
+      #名
+      t.string :first_name
+      #姓カナ
+      t.string :last_name_kana
+      #名カナ
+      t.string :first_name_kana
+      #メールアドレス
+      t.string :email
+      #パスワード
+      t.string :encrypted_password
 
       t.timestamps null: false
     end

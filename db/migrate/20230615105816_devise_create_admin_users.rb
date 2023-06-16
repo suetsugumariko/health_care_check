@@ -33,6 +33,17 @@ class DeviseCreateAdminUsers < ActiveRecord::Migration[6.1]
       # t.datetime :locked_at
 
 
+      #管理者ID
+      #id
+      #メールアドレス
+      t.string :email
+      #パスワード
+      t.string :encrypted_password
+      #食事　入力欄
+      t.text :input_column_meal
+      #美容、栄養　入力欄
+      t.text :input_column_beauty_nutrition
+
       t.timestamps null: false
     end
 
